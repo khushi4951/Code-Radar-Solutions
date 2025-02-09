@@ -1,12 +1,7 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     char character,
     scanf("%c",&character);
-    printf("ASCII Value: %d", character);
+    printf("ASCII Value: %d\n", character);
     return 0;
 }
