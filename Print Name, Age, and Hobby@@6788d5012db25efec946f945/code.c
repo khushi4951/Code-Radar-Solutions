@@ -6,9 +6,9 @@ char* welcome() {
 
 int main() {
     int a;
-    char name[100];
-    char hob[100];
-    scanf("%d %c %c", &a,name,hob);
-    printf("Name: %c\n Age: %d\n Hobby: %c\n",name,a,hob);
+    char name[50];
+    char hob[50];
+    scanf("%s %d %s", name,&a,hob);
+    printf("Name: %s\nAge: %d\nHobby: %s\n",name,a,hob);
     return 0;
 }
