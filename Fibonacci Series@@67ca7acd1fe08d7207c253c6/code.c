@@ -1,8 +1,7 @@
 // Your code here...  
 int fibonacciSeries(int n)    
 {    
- int n1=0,n2=1,n3,i,number;
- scanf("%d",&number);    
+ int n1=0,n2=1,n3,i;
  printf("\n%d %d",n1,n2); 
  for(i=2;i<number;++i)//loop starts from 2 because 0 and 1 are already printed    
  {    
@@ -11,5 +10,4 @@ int fibonacciSeries(int n)
   n1=n2;    
   n2=n3;    
  }  
-  return n3;  
  }
