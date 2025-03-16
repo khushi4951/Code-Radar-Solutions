@@ -7,13 +7,13 @@ int isPrime(int num){
     return 1;
 }
 void printPrimesInRange(int a, int b){
+    int f=0;
     for(int i= a; i<=b;i++){
         if (isPrime(i)){
             printf("%d ",i);
-        }
-         else if (!isPrime(i)){
-            printf("No prime numbers");
+            f=1;
         }
     }
+    if (!f) printf("No prime numbers");
     printf("\n");
 }
