@@ -1,5 +1,5 @@
 // Your code here...  
-int fibonacciSeries(int n)    
+void fibonacciSeries(int n)    
 {    
  int n1=0,n2=1,n3,i;
  if (n==1){
