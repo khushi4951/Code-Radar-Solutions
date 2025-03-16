@@ -2,7 +2,7 @@
 #include <stdio.h>
 void bubbleSort();
 void printArray();
-int main({
+int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
